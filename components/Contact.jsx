@@ -35,9 +35,9 @@ function Contact() {
               <h5 className="text-[22px] font-semibold font-primary leading-none mb-2">
                 Napište nám
               </h5>
-              <p className="mb-4">Náš tým je tu pro vás a rád vám pomůže.</p>
+              <p className="mb-4">Snažím se odepisovat co nejrychleji.</p>
               <p className="font-semibold text-accent">
-                info@profimachining.eu
+                miroslav.ehrlich@seznam.cz
               </p>
             </div>
           </div>
@@ -51,10 +51,10 @@ function Contact() {
                 Sídlo společnosti
               </h5>
               <p className="mb-4">
-                Zastavte se u nás nebo nás kontaktujte předem.
+                Zastavte se u nás na návštěvu.
               </p>
               <p className="font-semibold text-accent">
-                Větrná 1919/20A 46601 Jablonec nad Nisou
+                Horní 4519, 468 04, Jablonec nad Nisou - Proseč nad Nisou
               </p>
             </div>
           </div>
@@ -68,11 +68,11 @@ function Contact() {
                 Telefon
               </h5>
               <p className="mb-4">Pondělí–pátek od 8:00 do 16:00.</p>
-              <p className="font-semibold text-accent">+420 724 777 078</p>
+              <p className="font-semibold text-accent">+420 604 324 513</p>
             </div>
           </div>
         </div>
-        <Link href="/about">
+        <Link href="https://maps.google.com/maps?ll=50.735117,15.106433&z=16&t=m&hl=cs-CZ&gl=US&mapclient=embed&q=Horn%C3%AD%204519%20468%2004%20Jablonec%20nad%20Nisou%207-Prose%C4%8D%20nad%20Nisou">
           <Button text="Přejít na mapu" />
         </Link>
       </div>

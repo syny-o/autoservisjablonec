@@ -21,61 +21,57 @@ const Footer = () => {
       // initial="hidden"
       // whileInView="show"
       // viewport={{ once: false, amount: 0.1 }}
-      className="mt-16 xl:mt-32 bg-primary"
+      className=" bg-primary"
     >
       <div className="container mx-auto">
-        <div className="py-16 xl:py-[100px] flex flex-col xl:flex-row gap-[60px] xl:gap-[30px]">
+        <div className="py-8 xl:py-[80px] flex flex-col xl:flex-row gap-[60px] xl:gap-[30px] items-center">
           {/* logo & text */}
-          <div className="flex-1">
-            < Logo />
-            <p className="text-border max-w-[270px]">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
-              ut libero pariatur voluptatum porro.
+          <div className="flex-1 text-center xl:text-left">
+            <Logo />
+            <p className="text-white max-w-[270px]">
+
             </p>
           </div>
           {/* contact */}
-          <div className="flex-1 text-border">
-            <h4 className="h4 text-white mb-10">Contact</h4>
-            <ul className="flex flex-col gap-6">
+          <div className="flex-1 text-white text-center xl:text-left">
+            {/* <h4 className="h4 text-white mb-10">Kontakt</h4> */}
+            <ul className="flex flex-col gap-6 items-center xl:items-start">
               <li className="flex items-center gap-4">
                 <RiMapPin2Fill className="text-accent text-xl" />
-                <p>1250 Brickstone Ave, US</p>
+                <p>Větrná 1919/20A 46601 Jablonec nad Nisou</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiPhoneFill className="text-accent text-xl" />
-                <p>+1 (555) 000-0000</p>
+                <p>+420 724 777 078</p>
               </li>
               <li className="flex items-center gap-4">
                 <RiMailFill className="text-accent text-xl" />
-                <p>email@urbanbuild.com</p>
+                <p>info@profimachining.eu</p>
               </li>
             </ul>
           </div>
-          {/* newsletter */}
-          <div className="flex-1 text-border">
-            <h4 className="h4 text-white mb-10">Newsletter</h4>
-            <p className="mb-9">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
-              animi architecto repudiandae aliquid iusto itaque!
-            </p>
-            {/* input */}
-            <div className="relative max-w-[370px]">
-              <input
-                type="text"
-                placeholder="Enter your email"
-                className="bg-[#222427] h-16 w-full pl-7 rounded-none outline-none flex items-center"
-              />
-              <button className="bg-accent w-12 h-12 absolute right-2 top-2 bottom-2 text-primary text-xl flex items-center justify-center">
-                <RiArrowRightLine />
-              </button>
+          {/* mapa sídla */}
+          <div className="flex-1 text-white text-center xl:text-left">
+            {/* <h4 className="h4 text-white mb-10">Kde nás najdete</h4> */}
+
+            <div className="overflow-hidden shadow-lg border border-gray-700">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2525.567113130459!2d15.161647393742845!3d50.727969694242624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470ecad39cb0af17%3A0x719eea92018d4bff!2sV%C4%9Btrn%C3%A1%201919%2F20A%2C%20466%2001%20Jablonec%20nad%20Nisou%201!5e0!3m2!1scs!2scz!4v1761576313403!5m2!1scs!2scz"
+                width="100%"
+                height="200"
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full h-[200px] border-0"
+              ></iframe>
             </div>
           </div>
         </div>
       </div>
       {/* copyright */}
-      <div className="container mx-auto xl:px-0 py-12 border-t border-border/10 flex flex-col gap-6 xl:flex-row items-center justify-between">
-        <p className="text-border">
-          Copyright &copy; 2025 UrbanBuild. All rights reserved.
+      <div className="container mx-auto xl:px-0 py-6 border-t border-border/10 flex flex-col gap-6 xl:flex-row items-center justify-between">
+        <p className="text-white">
+          Copyright &copy; 2025 Miroslav Ehrlich
         </p>
         <Socials
           containerStyles="flex gap-6 text-white"

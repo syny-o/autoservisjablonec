@@ -19,13 +19,19 @@ const Testimonials = () => {
             // viewport={{ once: false, amount: 0.2 }}
             className="flex-1 max-w-[484px] xl:pt-[54px] mb-12 xl:mb-0"
           >
-            <Pretitle text="Reference" />
-            <h2 className="h2 mb-6">Built On Trust, Proven By Results</h2>
+            <Pretitle text="O Nás" />
+            <h2 className="h2 mb-6">Vítá Vás autoservis Jablonec nad Nisou</h2>
             <p className="mb-10 max-w-[420px]">
-              From homes to commercial spaces, our clients share their
-              experiences of working with us. See how we've helped them bring
-              their dreams to live with expert craftsmanship.
+              Jsem rád, že vás mohu přivítat na stránkách našeho autoservisu.
+              Nabízíme kompletní služby pro váš vůz a sídlíme v Proseči nad
+              Nisou, součásti Jablonce nad Nisou. Naší péči využívají motoristé
+              z Liberce, Chrastavy, Hrádku nad Nisou i okolních měst.
+              Disponujeme moderním vybavením, diagnostikou a ke každému
+              zákazníkovi přistupujeme individuálně – vždy za férové ceny. Pokud
+              máte jakýkoliv dotaz, neváhejte nás kontaktovat. Těšíme se na
+              setkání s vámi.
             </p>
+            <p className="font-semibold">Miroslav Ehrlich, majitel</p>
             {/* <Button text="Work with us" /> */}
           </motion.div>
           {/* img & slider */}
@@ -53,9 +59,9 @@ const Testimonials = () => {
               className="xl:absolute xl:bottom-0 xl:right-[160px] relative max-w-max"
             >
               {/* quote icon img/div */}
-              <div
-                className="absolute z-20 -top-4 left-[60px] text-9xl text-accent font-bold italic"
-              >"</div>
+              <div className="absolute z-20 -top-4 left-[60px] text-9xl text-accent font-bold italic">
+                "
+              </div>
               <Slider />
             </motion.div>
           </motion.div>

@@ -5,22 +5,30 @@ import { fadeIn } from "@/variants";
 
 const faqItemsData = [
   {
-    title: "How long does a construction project usually take?",
-    description: "Timelines vary based on project size and complexity.",
+    title: "Jak dlouho trvá běžná oprava?",
+    description:
+      "Záleží na typu závady. Menší servisní úkony zvládneme během jednoho dne, složitější opravy podle dostupnosti dílů.",
   },
   {
-    title: "Do I need permits for my project?",
-    description: "Timelines vary based on project size and complexity.",
+    title: "Musím si opravu předem objednat?",
+    description:
+      "Doporučujeme domluvit si termín předem, abychom Vám mohli vyhradit čas. Naléhavé závady řešíme individuálně.",
   },
   {
-    title: "What materials do you use?",
-    description: "Timelines vary based on project size and complexity.",
+    title: "Používáte originální nebo alternativní díly?",
+    description:
+      "Nabízíme obě možnosti. Vždy se s Vámi domluvíme, co je pro Váš vůz a rozpočet nejvhodnější.",
   },
   {
-    title: "Can I make changes after construction starts?",
-    description: "Timelines vary based on project size and complexity.",
+    title: "Můžete udělat diagnostiku i bez předchozí domluvy?",
+    description:
+      "Pokud máme volné kapacity, diagnostiku provedeme na počkání. Doporučujeme ale krátkou telefonickou domluvu.",
   },
-
+  {
+    title: "Poskytujete záruku na opravy?",
+    description:
+      "Ano, na práci i náhradní díly poskytujeme standardní záruku podle typu služby a použitých dílů.",
+  },
 ];
 
 // animation variants for FAQ items
@@ -36,7 +44,7 @@ const faqItemVariants = {
 
 const Faq = () => {
   return (
-    <section className="pt-16 xl:pt-32">
+    <section className="py-16 xl:py-32">
       <div className="container mx-auto">
         {/* text */}
         <motion.div
@@ -46,11 +54,11 @@ const Faq = () => {
           // viewport={{ once: false, amount: 0.2 }}
           className="text-center max-w-[540px] mx-auto xl:mb-20"
         >
-          <Pretitle text="Faq" center />
-          <h2 className="h2 mb-3">Got Questions? We've Got You Covered</h2>
+          <Pretitle text="Často se ptáte" center />
+          <h2 className="h2 mb-3">Máte dotazy? Rádi vám poradíme</h2>
           <p className="mb-11 max-w-[480px] mx-auto">
-            From project planning to final touches, we've answered the most
-            common questions to help you make informed decisions.
+            Připravili jsme odpovědi na nejčastější otázky, které vám pomohou
+            lépe se zorientovat v servisu vašeho vozu.
           </p>
         </motion.div>
         {/* faq items */}
