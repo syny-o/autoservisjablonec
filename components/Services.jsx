@@ -168,7 +168,7 @@ const Services = () => {
                                 className="flex items-center gap-4"
                               >
                                 <div className="w-[6px] h-[6px] bg-accent"></div>
-                                <div className="capitalize font-medium text-primary">
+                                <div className="font-medium text-primary">
                                   {service}
                                 </div>
                               </li>

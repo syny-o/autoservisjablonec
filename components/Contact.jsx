@@ -8,7 +8,7 @@ import Link from "next/link";
 
 function Contact() {
   return (
-    <section className="mx-auto bg-primary text-white mt-25">
+    <section className="mx-auto bg-primary text-white mt-25" id="contact">
       {/* <motion.div
         // variants={fadeIn("up", 0.2)}
         // initial="hidden"

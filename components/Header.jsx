@@ -9,8 +9,8 @@ const Header = () => {
   const links = [
     { name: "home", path: "home" },
     { name: "služby", path: "services" },
-    { name: "galerie", path: "galery" },
     { name: "o nás", path: "about" },
+    { name: "galerie", path: "work" },
   ];
 
   return (

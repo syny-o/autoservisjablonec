@@ -22,7 +22,7 @@ const links = [
   { name: "home", path: "home" },
   { name: "služby", path: "services" },
   { name: "o nás", path: "about" },
-  { name: "projekty", path: "projects" },
+  { name: "galerie", path: "work" },
   { name: "kontakt", path: "contact" },
 ];
 

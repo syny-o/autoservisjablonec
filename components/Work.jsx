@@ -7,25 +7,25 @@ import { RiArrowRightUpLine, RiCheckboxCircleFill } from "react-icons/ri";
 const workData = [
   {
     img: "/assets/img/work/1.jpg",
-    name: "restoration",
+    name: "výměna oleje",
     description: "Your short description",
     href: "",
   },
   {
     img: "/assets/img/work/2.jpg",
-    name: "construction",
+    name: "Diagnostika motoru",
     description: "Your short description",
     href: "",
   },
   {
     img: "/assets/img/work/3.jpg",
-    name: "renovation",
+    name: "Oprava brzd",
     description: "Your short description",
     href: "",
   },
   {
     img: "/assets/img/work/4.jpg",
-    name: "consulting",
+    name: "Pneuservis",
     description: "Your short description",
     href: "",
   },
@@ -36,7 +36,7 @@ import { fadeIn } from "@/variants";
 
 const Work = () => {
   return (
-    <div className="pt-16 xl:pt-32" id="projects">
+    <div className="pt-16 xl:pt-32" id="work">
       {/* <div className="container mx-auto">
         <motion.div
           // variants={fadeIn("up", 0.2)}
@@ -74,22 +74,22 @@ const Work = () => {
                 quality={100}
               />
               <div className="absolute w-full h-full bg-accent opacity-35"></div>
-              <div className="w-[90%] h-[84px] bg-primary absolute bottom-4 flex justify-between items-center text-white md:translate-y-[108px] md:group-hover:translate-y-0 transition-all duration-500">
-                <div className="pl-8">
-                  <h4 className="text-white font-primary font-semibold tracking-[1px] uppercase">
+              <div className="rounded-2xl p-6 bg-primary absolute bottom-4 flex justify-center items-center text-white md:translate-y-[108px] md:group-hover:translate-y-0 transition-all duration-500">
+                <div className="pl-0">
+                  <h4 className="text-white font-primary font-semibold uppercase">
                     {item.name}
                   </h4>
-                  <div className="flex items-center gap-1">
+                  {/* <div className="flex items-center gap-1">
                     <RiCheckboxCircleFill className="text-accent text-xl" />
                     <p>{item.description}</p>
-                  </div>
+                  </div> */}
                 </div>
-                <Link
+                {/* <Link
                   href={item.href}
                   className="w-[44px] xl:w-[60px] xl:h-[60px] h-[44px] bg-accent text-primary text-2xl flex justify-center items-center absolute right-3"
                 >
                   <RiArrowRightUpLine />
-                </Link>
+                </Link> */}
               </div>
             </div>
           );

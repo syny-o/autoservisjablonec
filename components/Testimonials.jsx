@@ -8,7 +8,7 @@ import { fadeIn } from "@/variants";
 
 const Testimonials = () => {
   return (
-    <section className="pt-16 xl:pt-32">
+    <section className="pt-16 xl:pt-32" id="about">
       <div className="container mx-auto">
         <div className="flex flex-col xl:flex-row relative">
           {/* text */}
