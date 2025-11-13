@@ -1,0 +1,40 @@
+import { RiPhoneFill, RiMailFill } from "react-icons/ri";
+import Socials from "./Socials";
+
+const Topbar = () => {
+  return (
+    <section
+      className="py-4 xl:h-16 xl:py-0 bg-gradient-to-t from-[#cbfe01] to-[#cbff55] flex items-center"
+      // className="py-4 xl:h-16 xl:py-0 bg-gradient-to-t from-[#0693e3] to-[#0693ff] flex items-center"
+      id="home"
+    >
+      <div className="container mx-auto">
+        {/* PHONE MAIL SOCIALS */}
+        <div className="flex flex-col lg:flex-row items-center justify-between gap-6">
+          <div className="hidden xl:flex items-center gap-8">
+            {/* PHONE */}
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center w-8 h-8 bg-primary text-white">
+                <RiPhoneFill className="text-base" />
+              </div>
+              <p className="font-medium text-primary">+420 604 324 513</p>
+            </div>
+            {/* EMAIL */}
+            <div className="flex items-center gap-3">
+              <div className="flex items-center justify-center w-8 h-8 bg-primary text-white">
+                <RiMailFill className="text-base" />
+              </div>
+              <p className="font-medium text-primary">miroslav.ehrlich@seznam.cz</p>
+            </div>
+          </div>
+          <Socials
+            containerStyles="flex items-center gap-8 mx-auto xl:mx-0"
+            iconStyles="text-primary"
+          />
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Topbar;
